@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: employee-details
+    
+  datasource:
+    url: jdbc:oracle:thin:@10.90.1.107:1521/SIT
+    username: HR
+    password: HR
+    
+  jpa: 
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
+
+
+server:
+  port: 6068              
